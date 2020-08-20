@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :users
-  root 'users#index'
+  resources :users, only: [:create, :new]
+  root 'users#new'
 end

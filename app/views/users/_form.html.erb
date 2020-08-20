@@ -12,21 +12,19 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= form.text_field :name, placeholder: "Name" %>
   </div>
 
   <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
+
+    <%= form.text_field :email, placeholder: "Email Address" %>
   </div>
 
   <div class="field">
-    <%= form.label :body %>
-    <%= form.text_area :body %>
+    <%= form.text_area :body, cols: "30", rows: "10", placeholder: "Your Message" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Send" %>
   </div>
 <% end %>

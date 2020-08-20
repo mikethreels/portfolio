@@ -35,6 +35,7 @@ class UsersController < ApplicationController
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
+    ContactMailer.new_contact(@user).deliver_now
   end
 
   # PATCH/PUT /users/1
