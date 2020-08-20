@@ -28,9 +28,10 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to request.referrer, notice: 'success fully send.' }
+        format.html { redirect_to new_user_path, notice: 'User was successfully created.' }
+        format.json { render :show, status: :created, location: @user }
       else
-        format.html { redirect_to request.referrer}
+        format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
@@ -42,7 +43,8 @@ class UsersController < ApplicationController
   def update
     respond_to do |format|
       if @user.update(user_params)
-        format.html { redirect_to request.referrer, notice: 'User was successfully updated.' }
+        format.html { redirect_to new_user_path, notice: 'User was successfully updated.' }
+        format.json { render :show, status: :ok, location: @user }
       else
         format.html { render :edit }
         format.json { render json: @user.errors, status: :unprocessable_entity }
