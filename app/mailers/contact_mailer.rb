@@ -8,7 +8,7 @@ class ContactMailer < ApplicationMailer
   def new_contact(user)
     @user = user
 
-    mail to: @user.email,
+    mail to: ENV["GMAIL_USERNAME"],
          subject: "New contact from #{@user.name}"
   end
 end
