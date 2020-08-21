@@ -101,7 +101,8 @@ Rails.application.configure do
     authentication: "login",
     enable_starttls_auto: true,
     user_name: ENV["GMAIL_USERNAME"],
-    password: ENV["GMAIL_PASSWORD"]
+    password: ENV["GMAIL_PASSWORD"],
+    openssl_verify_mode: 'none'
   }
 
   config.action_mailer.default_url_options = { host: "fathomless-plains-56756.herokuapp.com"}
