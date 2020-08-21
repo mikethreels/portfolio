@@ -97,14 +97,14 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
-    domain: "example.com",
+    domain: "fathomless-plains-56756.herokuapp.com",
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: ENV["GMAIL_USERNAME"],
     password: ENV["GMAIL_PASSWORD"]
   }
 
-  config.action_mailer.default_url_options = { host: "https://dashboard.heroku.com/apps/fathomless-plains-56756"}
+  config.action_mailer.default_url_options = { host: "fathomless-plains-56756.herokuapp.com"}
 
 
 end
