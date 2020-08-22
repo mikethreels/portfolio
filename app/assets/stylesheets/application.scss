@@ -435,8 +435,12 @@ background-color: white;
         height: 85px;
       }
     }
+    .about_container {
+      flex-direction: column-reverse;
+    }
     .about_me_info {
-      padding: 0 40px 0 50px;
+      padding: 0;
+      margin-top: 40px;
     }
     .intro_section {
       p {
