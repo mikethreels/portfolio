@@ -292,7 +292,7 @@ background-color: white;
   }
   
   .about_container{
-    margin: 50px;
+    margin: 20px 50px 20px 50px;
     text-align: start;
   }
   
@@ -325,8 +325,8 @@ background-color: white;
     max-width: 100%;
   
     img {
-
-      height: auto;
+      max-width: 60%;
+      max-height: 100%;
       margin-right: 15px;
     }
     p {
@@ -394,11 +394,59 @@ background-color: white;
     }
 
   @media (max-width: 769px) {
+    .contact_section {
+      font-size: 160%;
+    }
     .carousel-cell {
       flex-direction: column;
+      div {
+        margin: 4rem;
+        font-size: max(5vw, 15px);
+        p {
+          font-size: max(5vw, 15px);
+        }
+      }
     }
-    .slider img {
-      max-width: 70vw;
+    h2 {
+      font-size: max(8vw, 30px);
+    }
+    h3 {
+      font-size: max(5vw, 15px);
+    }
+    p {
+      font-size: max(5vw, 15px);
+    }
+    .social_links {
+      font-size: max(10vw, 15px);
+    }
+    .nav-leaf {
+      p {
+        font-size: max(3vw, 15px);
+      }
+    }
+    .resume {
+      height: 70px;
+    }
+    form {
+      div {
+        width: 50vw;
+      }
+      input {
+        height: 85px;
+      }
+    }
+    .about_me_info {
+      padding: 0 40px 0 50px;
+    }
+    .intro_section {
+      p {
+        font-size: max(5vw, 15px);
+      }
+    }
+    .field {
+      textarea {
+        max-width: 100%;
+      }
     }
   }
   
