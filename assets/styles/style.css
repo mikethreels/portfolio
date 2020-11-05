@@ -21,7 +21,7 @@
   nav{
   height: 10vh;
   justify-content: space-between;
-  color: #727274;
+  color: #000;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,7 +32,7 @@
   
     main {
       padding-top: 10vh;
-      color: #727274;
+      color: #000;
       position: relative;
     }
     
@@ -50,7 +50,7 @@
     h2 {
       font-size: max(5vw, 30px);
       text-align: center;
-      color: white;
+      color: #000;
       font-family: "poppins-medium", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       padding-bottom: 10px;
     }
@@ -81,7 +81,7 @@
       height: 10vh;
       margin-left: 5px;
       border-radius: 50%;
-      background-color: #727274;
+      background-color: #000;
       /* background-image: linear-gradient(to right top, #845ec2, #806ecc, #7e7cd4, #7d8adb, #7f97e1, #66a7f0, #45b7fa, #00c6ff, #00dcff, #00eedf, #00fa95, #18ff00); */
       align-items: center;
       justify-content: center;
@@ -192,7 +192,7 @@
     }
     
     .resume {
-      background-color: #727274;
+      background-color: #000;
       color: #fff;
       height: 50px;
       padding: 0 5px 5px 5px;
@@ -200,7 +200,7 @@
     
     .resume:hover {
       background-color: #fff;
-      color: #727274;
+      color: #000;
     }
     
     .contact_section{
