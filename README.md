@@ -1,57 +1,26 @@
 # Project Name
 
-> One paragraph statement about the project.
-
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This is my personal portfolio showcasing my most recent projects
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://mikethreels.github.io/portfolio-template/)
 
 
 ## Authors
 
-👤 **Author1**
+👤 Michael Threels
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@mikethreels](https://github.com/mikethreels)
+- Twitter: [@MichaelThreels](https://twitter.com/MichaelThreels)
+- LinkedIn :[michaelthreels](https://www.linkedin.com/in/michael-threels)
 
 ## 🤝 Contributing
 
