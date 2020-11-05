@@ -157,7 +157,19 @@
           <section id="contact" class="contact_section main_sections flex">
               <h2>Contact</h2>
               <div>
-                  <%= render 'form', user: @user %>
+                <form action="">
+                  <div class="name">
+                    <input type="text" name="Name" id="first_name" placeholder="First name">
+                    <input type="text" name="Surname" id="last_name" placeholder="Last name">
+                  </div>
+                  <div class="email">
+                    <input type="text" name="Email" id="email_address" placeholder="Email address">
+                  </div>
+                  <div class="info">
+                    <textarea name="Info" id="information" cols="30" rows="10" placeholder="your request"></textarea>
+                  </div>
+                  <input type="submit">
+                </form>
               </div>
           </section>
       </div>
