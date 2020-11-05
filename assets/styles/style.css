@@ -46,7 +46,7 @@
       font-size: 5vh;
       color: white;
     }
-    
+
     h2 {
       font-size: max(5vw, 30px);
       text-align: center;
@@ -223,6 +223,11 @@
     a:hover,
     .resume:hover {
       cursor: pointer;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;  
     }
   
      /* helper */
