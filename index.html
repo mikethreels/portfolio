@@ -157,16 +157,15 @@
           <section id="contact" class="contact_section main_sections flex">
               <h2>Contact</h2>
               <div>
-                <form action="">
+                <form action="https://formspree.io/f/xpzkgyno" method="POST">
                   <div class="name">
-                    <input type="text" name="Name" id="first_name" placeholder="First name">
-                    <input type="text" name="Surname" id="last_name" placeholder="Last name">
+                    <input type="text" name="Name" id="first_name" placeholder="Full name" maxlength="30" required>
                   </div>
                   <div class="email">
-                    <input type="text" name="Email" id="email_address" placeholder="Email address">
+                    <input type="email" name="Email" id="email_address" placeholder="Email address" required>
                   </div>
                   <div class="info">
-                    <textarea name="Info" id="information" cols="30" rows="10" placeholder="your request"></textarea>
+                    <textarea name="Info" id="information" cols="30" rows="10" placeholder="your request" maxlength="500" required></textarea>
                   </div>
                   <input type="submit">
                 </form>

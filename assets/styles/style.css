@@ -114,7 +114,7 @@
     
     .main_sections {
       height: 90vh;
-      width: 99vw;
+      width: 98,5vw;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -216,8 +216,10 @@
     }
     
     .email input,
+    .name input,
     .info textarea {
-      width: 100%;
+      width: 40vw;
+      padding-left: 4px;
     }
     
     a:hover,
